@@ -43,18 +43,18 @@ class BankAccount:
             account.display_account_info()
 
 
-# ! instantiate objects here
-# create two bank accounts
-account1 = BankAccount(0.05, 1_000)
-account2 = BankAccount(0.0125, 500)
+# # ! instantiate objects here
+# # create two bank accounts
+# account1 = BankAccount(0.05, 1_000)
+# account2 = BankAccount(0.0125, 500)
 
-# ! chaining method
-# account1 makes 3 deposits and 1 withdrawal, yield interest, and then display account info
-print("--Account 1--")
-account1.deposit(250).deposit(1_000).deposit(895).withdraw(620).yield_interest().display_account_info()
-# account2 makes 2 deposits and 4 withdrawals, yield interest, and then display account info
-print("--Account 2--")
-account2.deposit(1_150).deposit(950).withdraw(550).withdraw(250).withdraw(85).withdraw(15).yield_interest().display_account_info()
+# # ! chaining method
+# # account1 makes 3 deposits and 1 withdrawal, yield interest, and then display account info
+# print("--Account 1--")
+# account1.deposit(250).deposit(1_000).deposit(895).withdraw(620).yield_interest().display_account_info()
+# # account2 makes 2 deposits and 4 withdrawals, yield interest, and then display account info
+# print("--Account 2--")
+# account2.deposit(1_150).deposit(950).withdraw(550).withdraw(250).withdraw(85).withdraw(15).yield_interest().display_account_info()
 
-# display all instances of bank account's info
-BankAccount.display_all_accounts()
+# # display all instances of bank account's info
+# BankAccount.display_all_accounts()
